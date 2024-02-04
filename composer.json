@@ -1,0 +1,32 @@
+{
+  "name": "davfer/php-specification-doctrine",
+  "description": "A doctrine implementation for php-specification",
+  "type": "library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "PhpSpecification\\Doctrine\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PhpSpecification\\Doctrine\\Test\\": "test/"
+    }
+  },
+  "authors": [
+    {
+      "name": "davfer",
+      "email": "paido2005@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpstan/phpstan": "^1.10",
+    "phpunit/phpunit": "^10.2",
+    "symfony/cache": "^6.3"
+  },
+  "require": {
+    "doctrine/orm": "^2.15",
+    "davfer/php-specification": "^1.0"
+  }
+}
